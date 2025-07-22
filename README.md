@@ -1,3 +1,16 @@
+# 🔧 C++20 Compatible Fork
+
+This is a personal fork with **C++20 compatibility fixes** and **modern CMake support**.
+
+**Key changes:**
+- Fixed `std::vector<argument>` default parameter issues for C++20
+- Updated CMake requirement to 3.25
+- Split `variant create()` method to avoid incomplete type problems
+
+**Original repository:** https://github.com/rttrorg/rttr
+
+---
+
 [![Version](https://badge.fury.io/gh/rttrorg%2Frttr.svg)](https://github.com/rttrorg/rttr/releases/latest)
 [![Travis status](https://travis-ci.org/rttrorg/rttr.svg?branch=master)](https://travis-ci.org/rttrorg/rttr)
 [![Appveyor status](https://ci.appveyor.com/api/projects/status/github/rttrorg/rttr?svg=true&branch=master)](https://ci.appveyor.com/project/acki-m/rttr)

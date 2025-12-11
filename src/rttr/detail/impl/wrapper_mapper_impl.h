@@ -40,6 +40,10 @@ namespace rttr
 
 class type;
 
+// Forward declaration for rttr_cast
+template<typename Target_Type, typename Source_Type>
+Target_Type rttr_cast(Source_Type object) RTTR_NOEXCEPT;
+
 //////////////////////////////////////////////////////////////////////////////////////
 
 template<typename T>
